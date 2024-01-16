@@ -1,0 +1,247 @@
+/** COMMON CSS START */
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+align-center{
+    align-items: center;
+}
+
+.button{
+    background-color: #cfc91d;
+    padding: 19px 42px;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading h2{
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    display: block;
+    
+}
+.heading p{
+    color:#7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top:26px 0;
+}
+
+ 
+/** COMMON CSS END */
+
+/** NAVBAR START HERE */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 30%;
+    padding-top: 20px;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+    
+}
+ nav .menu ul li{
+    display: inline-block;   
+
+}
+nav .menu ul li a {
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/** NAVBAR ENDS HERE */
+
+/** BANNER START */
+#banner{
+    background-image:url(../imges/MYFOLIO.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ #banner .row{
+    height: 728px;
+    align-items: center;
+
+}
+ .banner-cnt{
+    color: white;
+    width:100%;
+    text-align: center;  
+   
+}
+.banner-cnt h3{
+    font-size: 30px;
+    width: 400;
+}
+.banner-cnt h1{
+    font-size: 68px;
+    width: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    
+}
+.banner-cnt p{
+    font-size: 18px;  
+}
+.banner-cnt img{
+    padding: 52px;
+}
+/** BANNER END*/
+
+
+/** ABOUT START */
+#about{
+    padding:90px 0 ;
+}
+.container .heading .para{
+    color:#7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    text-transform:none;
+}
+.container .heading .para span{
+    color:#7e8287;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+/** ABOUT END */
+#about{
+    padding: 98px;
+}
+.about-cards{
+    padding-top:80px;
+    width: 100%;
+}
+.about-cards .card{
+    width: 25%;
+    text-align: center;
+    text-transform: none;
+    border-right: 1px solid  #7e8287;
+    padding: 34px;
+}
+
+.about-cards .card:last-child{
+    border-right: none;
+}
+
+.about-cards .card i{
+    color: #02918c;
+    font-size: 30px;
+}
+.about-cards .card h3 {
+    font-size: 16px;
+    color: #7e8287;
+    font-weight: 800;
+    padding: 25px;
+}
+.about-cards .card p{
+    font-size: 11px;
+    color: #7e8287;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+
+/** SERVICES START */
+
+#SERVICES{
+    background-image: url(../imges/servic-pic.jpg);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+#SERVICES .SERVICES-cnt{
+    width: 45%;
+}
+#SERVICES .SERVICES-cnt h2{
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    display: block;
+    padding-top:72px ;
+    text-transform: uppercase;
+}
+#SERVICES .SERVICES-cnt p{
+    color:#7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top:26px 0;
+}
+#SERVICES .SERVICES-cnt .para{
+    color:#7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: justify;
+    text-transform:none;
+}
+/** SERVICES END*/
+
+/** card START */
+#SERVICES .sub-card {
+    width: 45%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+#SERVICES .sub-card i{
+    color: #02918c;
+    font-size: 30px;
+}
+#SERVICES .sub-card h3{
+    color: #7e8287;
+    font-weight: 800;
+    font-size: 16px; 
+}
+#SERVICES .sub-card p{
+    color: #7e8287;
+    font-size: 11px;
+    margin-top: 20px;
+    line-height: 20px;
+}   
+/** card END */
+
+
+
